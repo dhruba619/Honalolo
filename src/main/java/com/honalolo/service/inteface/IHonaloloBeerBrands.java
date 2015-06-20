@@ -8,10 +8,12 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+
+@Path("bear")
 public interface IHonaloloBeerBrands {
 	
 	@GET
-	@Path("/getBear")
+	@Path("getBear")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public abstract Response getBeerBrands(@QueryParam("name") String name);

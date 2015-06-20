@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cxf="http://cxf.apache.org/core"
-	xmlns:jaxws="http://cxf.apache.org/jaxws" xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:cxf="http://cxf.apache.org/core" xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xmlns:jaxrs="http://cxf.apache.org/jaxrs"
 	xsi:schemaLocation="
        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
        http://cxf.apache.org/core
        http://cxf.apache.org/schemas/core.xsd
-       http://cxf.apache.org/jaxws
-       http://cxf.apache.org/schemas/jaxws.xsd
        http://cxf.apache.org/jaxrs
        http://cxf.apache.org/schemas/jaxrs.xsd"
 	default-autowire="byName">
 	<import resource="classpath:META-INF/cxf/cxf.xml" />
 
 	<!-- BEANS -->
-	<bean id="sampleRestService" class="com.honalolo.service.impl.HonaloloBeerBrandsImpl" />
+
+	<bean id="utility" class="com.honalolo.service.utility.HonaloloUtility" />
+	<bean id="sampleRestService" class="com.honalolo.service.impl.HonaloloBeerBrandsImpl">
+		<property name="utility" ref="utility" />
+	</bean>
+	<bean id="weatherService" class="com.honalolo.service.impl.HonaloloWeatherServiceImpl">
+		<property name="utility" ref="utility" />
+	</bean>
 
 
 
+	<!-- CXF-BUS -->
 	<cxf:bus>
 		<cxf:features>
 			<cxf:logging />
 		</cxf:features>
-
 	</cxf:bus>
-	<!-- ##################### Rest Services ##################### -->
+
+
+	<!-- REST-SERVER -->
 	<jaxrs:server id="restServer" address="/services/v1/">
 		<jaxrs:serviceBeans>
 			<ref bean="sampleRestService" />
+			<ref bean="weatherService" />
 		</jaxrs:serviceBeans>
 		<jaxrs:extensionMappings>
 			<entry key="feed" value="application/atom+xml" />

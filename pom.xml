@@ -13,7 +13,7 @@
 		<spring-version>3.2.3.RELEASE</spring-version>
 		<java-version>1.8</java-version>
 	</properties>
-	
+
 	<build>
 		<finalName>honaloloBears</finalName>
 	</build>
@@ -46,12 +46,12 @@
 			<artifactId>spring-expression</artifactId>
 			<version>${spring-version}</version>
 		</dependency>
-		
+
 		<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-web</artifactId>
-		<version>${spring-version}</version>
-	</dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring-version}</version>
+		</dependency>
 
 		<!-- APACHE-CXF-DEPENDENCIES -->
 		<dependency>
@@ -70,8 +70,8 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
-		
+
+
 		<!-- SERVLET -->
 
 		<dependency>
@@ -80,6 +80,14 @@
 			<version>2.5</version>
 			<scope>provided</scope>
 		</dependency>
-	</dependencies>
+	
+	<!-- INJECT -->
+	<dependency>
+		<groupId>javax.inject</groupId>
+		<artifactId>javax.inject</artifactId>
+		<version>1</version>
+	</dependency>
+</dependencies>
+
 
 </project>
