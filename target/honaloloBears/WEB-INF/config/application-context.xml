@@ -55,5 +55,8 @@
 		<jaxrs:outInterceptors>
 			<ref bean="logOut" />
 		</jaxrs:outInterceptors>
+		  <jaxrs:features>
+        <bean class="org.apache.cxf.feature.LoggingFeature"/>
+    </jaxrs:features>
 	</jaxrs:server>
 </beans>
