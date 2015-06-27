@@ -1,4 +1,4 @@
-package com.smartek.smartmed.userModels;
+package com.honalolo.model.userModels;
 
 import java.util.Map;
 /**
