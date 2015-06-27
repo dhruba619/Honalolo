@@ -1,0 +1,20 @@
+package com.smartek.smartmed.userModels;
+
+import java.util.Map;
+
+public class UserDataModel {
+	private String firstName;
+	private String middleName;
+	private String lastName;
+	private String about_user;
+	private UserType userType;
+	private Map<String,Object> qualifications;
+	/**
+	 * Will have all details like email, phone, etc
+	 */
+	private Map<String, Object> addressesAndContacts;
+	
+	public static enum UserType{
+		DOCTOR,ADMIN,USERS
+	}
+}
