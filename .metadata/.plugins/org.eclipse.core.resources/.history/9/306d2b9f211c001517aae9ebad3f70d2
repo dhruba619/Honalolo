@@ -1,0 +1,5 @@
+package com.smartek.smartmed.userModels;
+
+public class UserDataModel {
+
+}
