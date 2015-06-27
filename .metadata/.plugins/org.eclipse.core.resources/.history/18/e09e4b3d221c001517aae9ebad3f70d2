@@ -1,0 +1,16 @@
+package com.smartek.smartmed.userModels;
+
+public class UserDataModel {
+	private String firstName;
+	private String middleName;
+	private String lastName;
+	private String email;
+	private String password;
+	private String about_user;
+	private UserType userType;
+	
+	
+	public static enum UserType{
+		DOCTOR,ADMIN,USERS
+	}
+}

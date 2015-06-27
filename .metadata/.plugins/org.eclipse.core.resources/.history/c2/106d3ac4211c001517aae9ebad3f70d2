@@ -1,0 +1,7 @@
+package com.smartek.smartmed.userModels;
+
+public class UserDataModel {
+	private String firstName;
+	private String middleName;
+	private String lastName;
+}
