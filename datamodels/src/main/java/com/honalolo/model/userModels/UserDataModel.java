@@ -17,7 +17,7 @@ public class UserDataModel {
 	private Map<String,Object> qualifications;
 	
 	/**
-	 * Will have all details like email, phone, etc
+	 * Will have all details like email, phone, etc etc
 	 */
 	private Map<String, Object> contactsAndAddresses;
 	
