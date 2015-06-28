@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface IDaoOperations {
 	
-	public abstract void saveDocument(Object object,String collectionName);
+	public abstract boolean saveDocument(Object object,String collectionName);
 	
 	public abstract void saveBulkDocuments(List<Object> object);
 	
