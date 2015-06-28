@@ -26,8 +26,7 @@ public class DaoOperationsImpl implements IDaoOperations {
 		MongoCollection<Document> collection = database.getCollection(collectionName);
 		String jsonData = gson.toJson(object);
 		Document document = Document.parse(jsonData);
-		collection.insertOne(document);
-		
+		collection.insertOne(document);	
 	}
 
 	@Override
