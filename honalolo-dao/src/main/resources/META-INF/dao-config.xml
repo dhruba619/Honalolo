@@ -9,9 +9,10 @@
 
 	<context:property-placeholder location="classpath:/dataBase.properties"/>
 	
-	<bean id="databaseConnection" class="com.honalolo.dao.connection.DbConnection">
+	<bean name="databaseConnection" class="com.honalolo.dao.connection.DbConnection">
 		<property name="dbHost" value="${DATABASEHOST}" />
 		<property name="dbPort" value="${DATABASEPORT}" />
 	</bean>
+	<bean name="gson" class="com.google.gson.Gson"/>
 
 </beans>
