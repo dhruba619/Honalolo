@@ -11,7 +11,7 @@ import javax.ws.rs.core.Response;
 
 @Path("weather")
 public interface IHonaloloWeatherService {
-
+	@Deprecated
 	@GET
 	@Path("/getWeather")
 	@Consumes(MediaType.APPLICATION_JSON)

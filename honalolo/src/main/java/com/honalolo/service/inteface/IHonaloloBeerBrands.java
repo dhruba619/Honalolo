@@ -11,7 +11,7 @@ import javax.ws.rs.core.Response;
 
 @Path("bear")
 public interface IHonaloloBeerBrands {
-	
+	@Deprecated
 	@GET
 	@Path("getBear")
 	@Consumes(MediaType.APPLICATION_JSON)

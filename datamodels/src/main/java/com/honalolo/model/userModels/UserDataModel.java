@@ -11,6 +11,8 @@ public class UserDataModel {
 	private String lastName;
 	private String about_user;
 	private UserType userType;
+	
+	
 	/**
 	 * Will have the type of qualification with description if required
 	 */
@@ -21,7 +23,10 @@ public class UserDataModel {
 	 */
 	private Map<String, Object> contactsAndAddresses;
 	
+	
+	
 	private Map<String, Object> practices;
+	
 	public String getFirstName() {
 		return firstName;
 	}
