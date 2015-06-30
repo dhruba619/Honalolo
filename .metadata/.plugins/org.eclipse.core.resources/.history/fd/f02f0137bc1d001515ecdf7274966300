@@ -1,0 +1,15 @@
+package com.honalolo.model.queries;
+
+import java.util.Map;
+
+public class QueriesDefinitions {
+	private Map<String,String> queryDefinitions;
+
+	public Map<String,String> getQueryDefinitions() {
+		return queryDefinitions;
+	}
+
+	public void setQueryDefinitions(Map<String,String> queryDefinitions) {
+		this.queryDefinitions = queryDefinitions;
+	}
+}

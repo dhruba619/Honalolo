@@ -1,0 +1,6 @@
+package com.honalolo.model.userModels;
+
+public class SpecializationDescriptionModel {
+	private String specialization;
+	private String description;
+}

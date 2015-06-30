@@ -1,0 +1,11 @@
+package com.honalolo.model.userModels;
+
+public class ContactAndAddresses {
+	private String addressLine1;
+	private String addressLine2;
+	private String landMark;
+	private String city;
+	private String State;
+	private String pinCode;
+	private List<Object> phoneNo;
+}

@@ -1,0 +1,9 @@
+package com.honalolo.model.userModels;
+
+import java.util.Date;
+
+public class AuditReportModel {
+	private Date createdAt;
+	private Date modifiedAt;
+	
+}

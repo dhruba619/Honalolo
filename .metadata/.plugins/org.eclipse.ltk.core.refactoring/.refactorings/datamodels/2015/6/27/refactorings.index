@@ -1,0 +1,5 @@
+1435493725885	Rename package 'queries'
+1435494646887	Encapsulate field 'queryDefinitions'
+1435681955864	Encapsulate field 'email'
+1435684823003	Encapsulate field 'updatorProfileId'
+1435685079308	Encapsulate field 'Wildcard'

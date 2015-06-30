@@ -1,0 +1,6 @@
+package com.honalolo.model.userModels;
+
+public class QualificationDescriptionModel {
+	private String title;
+	private String description;
+}

@@ -1,0 +1,9 @@
+package com.honalolo.model.queries;
+
+import java.util.Map;
+import java.util.Set;
+
+public class QueriesDefinitions {
+	private Set<String,String> queryDefinitions;
+	
+}

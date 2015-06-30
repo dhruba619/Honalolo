@@ -1,0 +1,5 @@
+package com.packageName.queries;
+
+public enum Queries {
+	READ,UPDATE,DELETE
+}
