@@ -7,11 +7,18 @@
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-	<context:property-placeholder location="classpath:/dataBase.properties"/>
-	
-	<bean id="databaseConnection" class="com.honalolo.dao.connection.DbConnection">
+	<context:property-placeholder location="classpath:/dataBase.properties" />
+
+	<bean name="databaseConnection" class="com.honalolo.dao.impls.DbConnection">
 		<property name="dbHost" value="${DATABASEHOST}" />
 		<property name="dbPort" value="${DATABASEPORT}" />
 	</bean>
 
+	<bean name="gson" class="com.google.gson.Gson" />
+
+	<bean name="daoOperations" class="com.honalolo.dao.impls.DaoOperationsImpl">
+		<property name="gson" ref="gson" />
+		<property name="databaseConnection" ref="databaseConnection" />
+	</bean>
+<bean id="jacksonProvider" class="org.codehaus.jackson.jaxrs.JacksonJsonProvider" />
 </beans>

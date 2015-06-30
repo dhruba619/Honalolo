@@ -13,6 +13,7 @@ public class UserDataModel {
 	private String password;
 	private String about_user;
 	private UserType userType;
+<<<<<<< HEAD
 	private List<AuditReportModel> audit;
 	private List<SpecializationDescriptionModel> specialization;
 	private List<QualificationDescriptionModel> qualifications;
@@ -43,6 +44,26 @@ public class UserDataModel {
 			List<SpecializationDescriptionModel> specialization) {
 		this.specialization = specialization;
 	}
+	
+		
+=======
+	
+	
+	/**
+	 * Will have the type of qualification with description if required
+	 */
+	private Map<String,Object> qualifications;
+	
+	/**
+	 * Will have all details like email, phone, etc etc
+	 */
+	private Map<String, Object> contactsAndAddresses;
+	
+	
+	
+	private Map<String, Object> practices;
+	
+>>>>>>> 436f1820f47db8766e5cc479ffd03cc69f86015a
 	public String getFirstName() {
 		return firstName;
 	}

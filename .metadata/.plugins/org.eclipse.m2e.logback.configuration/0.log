@@ -469,3 +469,47 @@ org.eclipse.jdt.core.JavaModelException: honalolo-dao does not exist
 2015-06-30 22:54:39,447 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Internal\NewStucture\Honalolo\datamodels\src\main\resources
 2015-06-30 22:54:39,448 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-06-30 22:54:39,448 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Internal\NewStucture\Honalolo\datamodels\src\test\resources
+2015-06-30 22:57:27,341 [Worker-276] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.honalolo.smartmed:data-models:1.0 @ F:\Internal\NewStucture\Honalolo\datamodels\pom.xml.
+2015-06-30 22:57:30,501 [Worker-276] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.1.1/jackson-jaxrs-1.1.1.pom
+2015-06-30 22:57:31,313 [Worker-276] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.1.1/jackson-jaxrs-1.1.1.pom
+2015-06-30 22:57:31,820 [Worker-276] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.1.1/jackson-core-asl-1.1.1.pom
+2015-06-30 22:57:32,770 [Worker-276] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.1.1/jackson-core-asl-1.1.1.pom
+2015-06-30 22:57:33,457 [Worker-276] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.1.1/jackson-mapper-asl-1.1.1.pom
+2015-06-30 22:57:34,486 [Worker-276] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.1.1/jackson-mapper-asl-1.1.1.pom
+2015-06-30 22:57:34,996 [Worker-276] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.1.1/jackson-jaxrs-1.1.1.jar
+2015-06-30 22:57:36,224 [Worker-276] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.1.1/jackson-jaxrs-1.1.1.jar
+2015-06-30 22:57:36,744 [Worker-276] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.1.1/jackson-core-asl-1.1.1.jar
+2015-06-30 22:57:38,891 [Worker-276] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.1.1/jackson-core-asl-1.1.1.jar
+2015-06-30 22:57:39,327 [Worker-276] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.1.1/jackson-mapper-asl-1.1.1.jar
+2015-06-30 22:57:42,585 [Worker-276] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.1.1/jackson-mapper-asl-1.1.1.jar
+2015-06-30 22:57:43,060 [Worker-276] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.honalolo.dao:honalolo-dao:1.0 @ F:\Internal\NewStucture\Honalolo\honalolo-dao\pom.xml.
+2015-06-30 22:57:43,154 [Worker-276] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: honalolo:honalolo:0.0.1-SNAPSHOT @ F:\Internal\NewStucture\Honalolo\honalolo\pom.xml.
+2015-06-30 22:57:45,240 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:57:45,240 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Internal\NewStucture\Honalolo\datamodels\src\main\resources
+2015-06-30 22:57:45,241 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:57:45,242 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Internal\NewStucture\Honalolo\datamodels\src\test\resources
+2015-06-30 22:57:45,760 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:57:45,760 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Internal\NewStucture\Honalolo\datamodels\src\main\resources
+2015-06-30 22:57:45,761 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:57:45,762 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Internal\NewStucture\Honalolo\datamodels\src\test\resources
+2015-06-30 22:57:45,878 [Worker-279] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.honalolo.dao:honalolo-dao:1.0 @ F:\Internal\NewStucture\Honalolo\honalolo-dao\pom.xml.
+2015-06-30 22:57:46,002 [Worker-279] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: honalolo:honalolo:0.0.1-SNAPSHOT @ F:\Internal\NewStucture\Honalolo\honalolo\pom.xml.
+2015-06-30 22:57:47,434 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:57:47,436 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-06-30 22:57:47,468 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:57:47,469 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Internal\NewStucture\Honalolo\honalolo-dao\src\test\resources
+2015-06-30 22:57:47,894 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:57:47,895 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-06-30 22:57:47,897 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:57:47,898 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Internal\NewStucture\Honalolo\honalolo-dao\src\test\resources
+2015-06-30 22:57:48,577 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:57:48,579 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-06-30 22:57:48,588 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:57:48,588 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Internal\NewStucture\Honalolo\honalolo\src\test\resources
+2015-06-30 22:57:48,589 [Worker-266] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of honalolo
+2015-06-30 22:57:48,590 [Worker-266] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for honalolo
+2015-06-30 22:57:48,613 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:58:12,882 [Worker-275] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:58:12,883 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Internal\NewStucture\Honalolo\datamodels\src\main\resources
+2015-06-30 22:58:12,885 [Worker-275] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-30 22:58:12,886 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Internal\NewStucture\Honalolo\datamodels\src\test\resources
