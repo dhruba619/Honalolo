@@ -13,6 +13,8 @@ public class ContactAndAddressesModel {
 	private String landLineNo;
 	private String mobileNo;
 	private String email;
+	//I think we need to add longitude and latitude here
+	
     public String getHospitalName() {
 		return hospitalName;
 	}
